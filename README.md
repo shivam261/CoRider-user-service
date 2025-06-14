@@ -14,16 +14,16 @@ A simple user management REST API built with Flask and MongoDB, dockerized for e
 ## 🧱 Project Structure
 .
 ├── app/
-│ ├── init.py
-| ├──controllers/
-│ │ └── user_controller.py
-│ ├── models/
-│ │ └── users.py
-│ ├── routes/
-│ │ └── user_routes.py
-| ├── services/
-| ├── utils/
-| └── __init__.py
+├ ├── init.py
+├ ├──controllers/
+├ │ └── user_controller.py
+├ ├── models/
+├ │ └── users.py
+├ ├── routes/
+├ │ └── user_routes.py
+├ ├── services/
+├ ├── utils/
+├ └── __init__.py
 ├── run.py
 ├── requirements.txt
 ├── development.env
