@@ -111,4 +111,47 @@ python run.py
 ```
 http://localhost:5000
 ```
+# API's
+### create user 
+url: /user  method : POST 
+#### BODY:
+```
 
+{
+  "uid":"211B293",
+  "email": "test@example.com",
+  "password": "secret1234",
+  "name": "Ravi Shastri"
+}
+
+```
+### get all users
+url: /user   method: GET
+#### BODY:
+```
+none 
+```
+### delete user
+url:/user/(uid) method:DELETE
+#### BODY:
+```
+#uid is sent through params
+```
+### get user 
+url :/user/params(uid) method:GET
+#### BODY:
+```
+# through params uid 
+```
+### Edit User
+url: user/(uid) method:PUT
+#### BODY:
+```
+# uid in json need to be same with uid in param 
+{
+  "uid": "211B293",
+  "email": "211B293@juetguna.in",
+  "password": "Shivam",
+  "name": "Shivam Tripathi"
+}
+```
