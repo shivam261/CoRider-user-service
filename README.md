@@ -99,6 +99,11 @@ SECRET_KEY=supersecretkey
 HOST=127.0.0.1
 ```
 ### run command 
+make sure venv is activated 
+```
+python3 -m venv venv
+```
+then run 
 ```
 python run.py
 ```
