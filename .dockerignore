@@ -1,0 +1,40 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+ENV/
+venv/
+
+# Environment variables
+.env
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs and coverage
+*.log
+coverage/
+htmlcov/
+.cache/
+
+# Pytest artifacts
+.pytest_cache/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Docker
+Dockerfile~
+docker-compose.override.yml
