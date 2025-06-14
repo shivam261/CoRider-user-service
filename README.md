@@ -36,6 +36,7 @@ A simple user management REST API built with Flask and MongoDB, dockerized for e
 └── README.md
 ```
 ## 📦 Setting up Env files
+make env files according to project structure
 - development.env
   ```
   FLASK_ENV=development
@@ -101,7 +102,7 @@ HOST=127.0.0.1
 ```
 python run.py
 ```
-accessing the app
+### accessing the app
 ```
 http://localhost:5000
 ```
