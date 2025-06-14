@@ -12,3 +12,39 @@ A simple user management REST API built with Flask and MongoDB, dockerized for e
 - Auto-restart & persistent data volume for MongoDB
 
 ## 🧱 Project Structure
+.
+├── app/
+│ ├── init.py
+| ├──controllers/
+│ │ └── user_controller.py
+│ ├── models/
+│ │ └── users.py
+│ ├── routes/
+│ │ └── user_routes.py
+| ├── services/
+| ├── utils/
+| └── __init__.py
+├── run.py
+├── requirements.txt
+├── development.env
+├── production.env
+├── Dockerfile
+├── .gitignore
+├── .dockerignore
+├── docker-compose.yml
+├── config.py
+└── README.md
+## 📦 Requirements
+
+- Docker
+- Docker Compose
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/shivam261/CoRider-user-service.git
+
